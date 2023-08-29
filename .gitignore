@@ -1,6 +1,6 @@
 .terraform
 terraform.tfstate
-terraform.tfstate.backup
+terraform.tfstate.*
 output.yaml
 .terraform.*
 clis-debug.log
@@ -8,3 +8,5 @@ bin2
 certificates
 coverage
 easy-rsa/
+
+default-vpn-client2site.ovpn
