@@ -2,8 +2,9 @@
 terraform.tfstate
 terraform.tfstate.backup
 output.yaml
-.terraform.lock.hcl
+.terraform.*
 clis-debug.log
 bin2
 certificates
 coverage
+easy-rsa/
