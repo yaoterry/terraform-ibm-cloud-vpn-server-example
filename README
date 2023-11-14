@@ -1,6 +1,6 @@
 The terraform configuration to setup IBM Cloud VPN server will mainly use IBM Cloud terraform provider: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest.
 
-This configuration will do the below things:
+The terraform configuration for VPN server setup needs to do the below things:
 1. Create the IBM Cloud secrets manager instance with trial plan.
 2. Generate the server certificate/key and client certificate/key.
 3. Import the server/client certificate/key to secrets manager instance.
@@ -13,7 +13,7 @@ This configuration will do the below things:
 Then, user can use the VPN client profile with OpenVPN client to connect the client machine to the created VPN server.
 
 
-To run this terraform configuration, you can run below command with your IBM Cloud api key:
+To run the terraform configuration, you can run below command with your IBM Cloud api key:
 
 ```
 terraform apply --var "ibmcloud_api_key={{YOUR_IBM_CLOUD_API_KEY}}"
