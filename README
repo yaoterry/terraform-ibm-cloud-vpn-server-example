@@ -13,7 +13,7 @@ The terraform configuration for VPN server setup needs to do the below things:
 Then, user can use the VPN client profile with OpenVPN client to connect the client machine to the created VPN server.
 
 
-To run the terraform configuration, you can run below command with your IBM Cloud api key:
+To apply the terraform configuration, you can run below command with your IBM Cloud api key:
 
 ```
 terraform apply --var "ibmcloud_api_key={{YOUR_IBM_CLOUD_API_KEY}}"
